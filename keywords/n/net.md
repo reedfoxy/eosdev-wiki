@@ -4,9 +4,9 @@
 
 [NET](net.md)는 트랜잭션을 실행하기 위하여 필요한 자원의 기본요소 3가지\( [CPU](https://eosdev.wiki/keywords/c/cpu) , [NET](https://eosdev.wiki/keywords/n/net) , [RAM](https://eosdev.wiki/keywords/r/ram) \) 중 하나이다.
 
-##  NET stake/unstake의 개념
+## NET stake/unstake의 개념
 
-![account : eos \(  site : eoscanner.io \)](../../.gitbook/assets/eos_scanner.png)
+![account : eos \( site : eoscanner.io \)](https://github.com/bon-k/eosdev-wiki/tree/792c592946e9831dff65a18ded8dc5cb5733bd8a/.gitbook/assets/eos_scanner.png)
 
 [NET](net.md)를 할당받기 위해서는 stake 라는 행위를 해야 한다. 여기서 stake의 뜻은 "지분" 이라는 의미로 사용된다. 구매라는 표현을 쓰지않고 지분이라고 표현한 이유는, 21개의 [BP](https://eosdev.wiki/keywords/b/bp)의 컴퓨터 성능에 따라서 총 [NET](net.md) 성능이 계산되고 EOS 토큰 비율만큼 지분을 할당받기 때문이다.
 
@@ -26,17 +26,17 @@ staking을 하게 되면 내가 가지고 있는 EOS 토큰 만큼 [NET](net.md)
 
 [cleos](../c/cleos.md) 커맨드라인 툴을 이용해서 직접 unstake를 할 수 있고, 외부 어플리케이션을 이용하는 방법도 있다. 둘다 내부적으로 동작하는 방법은 동일하다고 보면 된다. [eosio.system](../e/eosio.system.md) 페이지를 참고하면 [cleos](../c/cleos.md) 로 직접 할당을 취소 하는 방법에 대해서 확인할 수 있다.
 
-#### 2. undelegate 하기 
+#### 2. undelegate 하기
 
 [cleos](../c/cleos.md) 커맨드라인 툴을 이용해서 직접 delegate를 취소 할 수 있고, 외부 어플리케이션을 이용하는 방법도 있다. 둘다 내부적으로 동작하는 방법은 동일하다고 보면 된다. [eosio.system](../e/eosio.system.md) 페이지를 참고하면 [cleos](../c/cleos.md) 로 직접 임대를 취소 하는 방법에 대해서 확인할 수 있다.
 
 ## NET를 측정하는 단위
 
-![net \( site : eoscanner.io \)](../../.gitbook/assets/net_scanner.png)
+![net \( site : eoscanner.io \)](https://github.com/bon-k/eosdev-wiki/tree/792c592946e9831dff65a18ded8dc5cb5733bd8a/.gitbook/assets/net_scanner.png)
 
 [NET](net.md)의 단위를 보게되면 byte / MB 으로 미루어 보아 데이터 용량 단위라는것을 알수 있다.
 
-이오스에서 [NET](net.md)를 측정 하는 기준은 최종적으로 [BP](https://eosdev.wiki/~/drafts/-LWOzA0TPlO9v01J7Tec/primary/keywords/b/bp) 에게 전달된 트랜잭션 데이터 사이즈를 의미한다. 원래 여기서 의미하는 [NET](net.md)란 bandwidth 대역폭을 의미하지만 이는 정확하게 측정할 수 있는 방법이 없기 때문에 이오스에선 단순히 트랜잭션에 차지하는 데이터 사이즈를 기준을 판단한다. 
+이오스에서 [NET](net.md)를 측정 하는 기준은 최종적으로 [BP](https://eosdev.wiki/~/drafts/-LWOzA0TPlO9v01J7Tec/primary/keywords/b/bp) 에게 전달된 트랜잭션 데이터 사이즈를 의미한다. 원래 여기서 의미하는 [NET](net.md)란 bandwidth 대역폭을 의미하지만 이는 정확하게 측정할 수 있는 방법이 없기 때문에 이오스에선 단순히 트랜잭션에 차지하는 데이터 사이즈를 기준을 판단한다.
 
 ## NET 사용량 초기화 기준
 

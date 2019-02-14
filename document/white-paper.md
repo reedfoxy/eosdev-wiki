@@ -105,8 +105,6 @@ EOS.IO 소프트웨어를 통해 각 계정은 특정 종류의 메시지를 다
 
 #### 명명된 권한 수준 \(Named Permission Levels\)
 
-![](../.gitbook/assets/diagram3.png)
-
 EOS.IO 소프트웨어를 이용하여 계정은 상위 명명된 권한 수준들로부터 파생되는 명명된 권한 수준을 정의할 수 있습니다. 각각 명명된 권한 수준은 인증 방식\(authority\)을 정의합니다. 인증 방식은 다른 계정의 키와 명명된 권한 수준의 자유로운 조합에 대한 역치 다중서명 확인\(threshold multi-signature check\)입니다. 예를 들어, 한 계정의 "친구" 권한 수준은 해당 계정에 대해 어떠한 친구 계정으로도 동등하게 제어될 수 있게 할 수 있습니다.
 
 다른 예제로서 Steem 블록체인이 있으며, 여기에는 3가지 하드 코딩된 명명된 권한 수준을 가지고 있습니다. 소유자\(owner\), 활동\(active\), 포스팅\(posting\) 입니다. 포스팅 권한은 투표나 글쓰기와 같은 소셜 활동을 할 수 있으며, 활동 권한은 소유자 변경 외 모든 활동이 가능합니다. 소유자\(owner\) 권한은 콜드 스토리지\(cold storage\)를 의미하며 모든 활동이 가능합니다. The EOS.IO software generalizes this concept by allowing each account holder to define their own hierarchy as well as the grouping of actions.
@@ -128,8 +126,6 @@ EOS.IO 소프트웨어는 계정별로 어떠한 계정의 명명된 메시지 �
 @앨리스가 @밥에게 "액션" 타입의 메시지를 보낸다 가정해봅시다. EOS.IO 소프트웨어는 먼저 @앨리스가 @밥.그룹A.하위그룹.액션 처리기에 대한 권한을 매핑하였는지 확인합니다. 만약 매핑되어 있지 않다면 매핑이 발견될 때 까지 @밥.그룹A.하위그룹, @밥.그룹A, @밥의 순서로 검사합니다. 만약 메시지 처리기에 대한 매핑이 없으면 @앨리스.활동\(active\) 명명된 권한 그룹 매핑을 가정합니다.
 
 만약 매핑이 확인이 되면 역치 다중서명 절차와 명명된 권한에 대한 인증을 통해 서명된 인증에 대한 유효성을 검증합니다. 실패할 경우 상위 권한으로 검사를 수행하며 최종적으로 소유자 권한인 @앨**리스.소유자\(owner\)까지** 검사를 진행합니다.
-
-![](../.gitbook/assets/diagram2grayscale2.jpg)
 
 **기본 권한 그룹\( Default Permission Groups\)**
 

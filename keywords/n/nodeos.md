@@ -8,11 +8,11 @@
 
 ## 파일 위치
 
-[Github로 설치하기](../../tutorial/eos-install/github.md) 방법으로 설치를 했을경우 파일 위치는 아래와 같다. 
+[Github로 설치하기](../../tutorial/eos-install/github.md) 방법으로 설치를 했을경우 파일 위치는 아래와 같다.
 
 ### 1. build 전
 
-EOS를 홈 디렉터리에 설치 했다면 위치는 아래와 같다. 
+EOS를 홈 디렉터리에 설치 했다면 위치는 아래와 같다.
 
 ```text
 ~/eos/programs/nodeos/main.cpp
@@ -20,7 +20,7 @@ EOS를 홈 디렉터리에 설치 했다면 위치는 아래와 같다.
 
 ### 2. build 후
 
-EOS를 홈 디렉터리에 설치 했다면 위치는 아래와 같다. 
+EOS를 홈 디렉터리에 설치 했다면 위치는 아래와 같다.
 
 ```text
 ~/eos/build/programs/nodeos/nodeos
@@ -28,9 +28,5 @@ EOS를 홈 디렉터리에 설치 했다면 위치는 아래와 같다.
 
 ## 내부 통신 규약
 
-
-
 ## 블럭 복구 옵션
-
-
 

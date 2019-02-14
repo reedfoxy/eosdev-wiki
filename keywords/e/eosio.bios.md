@@ -4,7 +4,7 @@
 
 특수한 기능을 수행하는 [system contract](../s/system-contract.md)
 
-[nodeos](../n/nodeos.md) 를 최초로 구동한뒤 [eosio](eosio.md) 계정으로 배포하는 [system contract](../s/system-contract.md) 이다. **자원 할당** 및 **BP를 지정**할 수 있는 기능을 가지고 있는 계약이다. 당연한 이야기지만, 일반 계정으로 배포할 경우 아무런 기능을 수행할 수 없다. 특수한 권한을 가진 [eosio](eosio.md) 계정으로 이 컨트랙트를 등록해야만 효과를 발휘할 수 있다. 참고 [eosio.system](eosio.system.md) 계약이 개발되기 이전에 **임시**로 사용했던 계약이므로 **현재는 쓰지 않는다**. 
+[nodeos](../n/nodeos.md) 를 최초로 구동한뒤 [eosio](eosio.md) 계정으로 배포하는 [system contract](../s/system-contract.md) 이다. **자원 할당** 및 **BP를 지정**할 수 있는 기능을 가지고 있는 계약이다. 당연한 이야기지만, 일반 계정으로 배포할 경우 아무런 기능을 수행할 수 없다. 특수한 권한을 가진 [eosio](eosio.md) 계정으로 이 컨트랙트를 등록해야만 효과를 발휘할 수 있다. 참고 [eosio.system](eosio.system.md) 계약이 개발되기 이전에 **임시**로 사용했던 계약이므로 **현재는 쓰지 않는다**.
 
 ## 파일 위치
 
@@ -23,7 +23,7 @@ EOS\_PATH/contracts/eosio.bios/
 
 #### 개요
 
-특정 계정에 특권을 부여하는 액션이다. 
+특정 계정에 특권을 부여하는 액션이다.
 
 action name은 set\_privilege를 줄여서 setpriv 라고 한다. [eosio](eosio.md) 계정은 일반 계정과 달리 [system contract](../s/system-contract.md) 를 배포하고 실행할 수 있는 권한을 가지고 있는데, 이러한 권한을 다른 계정에게 부여할 수 있는 기능이다. 만약 일반 계정에게 이 특권을 부여할경우 [eosio](eosio.md) 와 동등한 권한을 가지게 되며, [eosio](eosio.md) 계정이 사용할 수 있는 **모든 기능**을 그대로 **사용**할 수 있다. 참고로 **자기 자신**에게도 **사용**할 수 있으며 자기 자신에게 권한을 false로 줄 경우 평범한 일반 계정이 된다. 특권이 박탈 당할 경우 특권이 있는 계정이 다시 권한을 올려주지 않는다면 **되돌릴 수 있는 방법이 없으니** 주의하자.
 
@@ -36,13 +36,13 @@ cleos push action eosio setpriv '["user1","1"]' -p eosio
 | Parameter Type | Example | Description |
 | :--- | :--- | :--- |
 | account\_name | user1 | 특권을 지정 하고자 하는 계정명을 입력한다. |
-| uint8\_t | 1 |  0 또는 1을 입력하면 된다. 0 = false, 1 = true |
+| uint8\_t | 1 | 0 또는 1을 입력하면 된다. 0 = false, 1 = true |
 
 ### 2. setalimits
 
 #### 개요
 
-특정 계정의 [cpu](../c/cpu.md) , [net](../n/net.md) , [ram](../r/ram.md) 자원을 변경할 수 있는 액션이다. 
+특정 계정의 [cpu](../c/cpu.md) , [net](../n/net.md) , [ram](../r/ram.md) 자원을 변경할 수 있는 액션이다.
 
 action name은 set\_account\_limits를 줄여서 setalimits 라고 한다. 한마디로 지정한 계정의 보유중인 자원을 마음대로 할당 및 조작할 수 있는 기능이다.
 
@@ -98,7 +98,7 @@ JSON 배열로 최대 21명까지 지정할 수 있다.
 
 블록체인 환경설정 정보를 변경할 수 있는 액션이다.
 
-action name은 set\_parameters를 줄여서 setparams라고 한다. eos 프로젝트 내부에 struct로 선언된 blockchain\_parameters 의 값을 변경할 수 있는 기능이다. 파라미터의 Description은 생략하였으며 대해 상세히 보고 싶다면 [genesis.json](../g/genesis.json.md) 을 참고하면 된다. 
+action name은 set\_parameters를 줄여서 setparams라고 한다. eos 프로젝트 내부에 struct로 선언된 blockchain\_parameters 의 값을 변경할 수 있는 기능이다. 파라미터의 Description은 생략하였으며 대해 상세히 보고 싶다면 [genesis.json](../g/genesis.json.md) 을 참고하면 된다.
 
 #### 사용방법
 
@@ -132,7 +132,7 @@ cleos push action eosio setparams '{"params":{"max_block_net_usage":"1048576","t
 
 액션을 발생시킨 계정이 본인이 맞는지 스스 검증하는 액션이다.
 
-action name은 require\_auth 을 줄여서 requath 라고 한다. 별 특별한 기능 없는 액션이다. 본인이 발생시킨 액션이  맞는지 스스로 검증하는 코드 한줄밖에 없다.
+action name은 require\_auth 을 줄여서 requath 라고 한다. 별 특별한 기능 없는 액션이다. 본인이 발생시킨 액션이 맞는지 스스로 검증하는 코드 한줄밖에 없다.
 
 #### 사용방법
 

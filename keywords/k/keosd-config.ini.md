@@ -1,4 +1,2 @@
 # keosd/config.ini
 
-
-

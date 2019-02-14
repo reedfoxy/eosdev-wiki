@@ -50,7 +50,7 @@ cd ~/eos/build/programs/nodeos
 > info  2018-12-19T05:29:08.601 thread-0  producer_plugin.cpp:752       plugin_startup       ] producer plugin:  plugin_startup() end
 > ```
 
-nodeos가 정상적으로 실행은 되었으나 블록을 생성하지 않는 것을 볼 수 있다. 그러나 걱정할 필요는 없다. 이 상황은 당연하기 때문이다. 환경설정 파일을 변경하지 않았기 때문에 정상적으로 실행되지 않은 것이다. 일단 **Control + C를 눌러서 노드를 종료** 시킨다. 
+nodeos가 정상적으로 실행은 되었으나 블록을 생성하지 않는 것을 볼 수 있다. 그러나 걱정할 필요는 없다. 이 상황은 당연하기 때문이다. 환경설정 파일을 변경하지 않았기 때문에 정상적으로 실행되지 않은 것이다. 일단 **Control + C를 눌러서 노드를 종료** 시킨다.
 
 ### 2. 환경설정 파일 수정하기
 
@@ -60,7 +60,7 @@ Mac OS : `~/Library/Application\ Support/eosio/nodeos/config/`
 
 Linux : `~/.local/share/eosio/nodeos/config/`
 
-위의 경로로 이동하게 되면 [config.ini](../../keywords/n/nodeos-config.ini.md) 라는 파일이 있을 것이다. 이 폴더를 VIM 편집기나 텍스트 에디터 등 자신이 원하는 방법으로 파일을 열어보자. 해당 파일을 열게 되면 정말 많은 옵션이 있을 것이다. 옵션이 너무 많이 때문에 처음부터 **모든 옵션에 대해서 알 필요는 없고** 이중에 노드를 구동하기 위하여 필수적인 요소만  먼저 알아보도록 하자.
+위의 경로로 이동하게 되면 [config.ini](../../keywords/n/nodeos-config.ini.md) 라는 파일이 있을 것이다. 이 폴더를 VIM 편집기나 텍스트 에디터 등 자신이 원하는 방법으로 파일을 열어보자. 해당 파일을 열게 되면 정말 많은 옵션이 있을 것이다. 옵션이 너무 많이 때문에 처음부터 **모든 옵션에 대해서 알 필요는 없고** 이중에 노드를 구동하기 위하여 필수적인 요소만 먼저 알아보도록 하자.
 
 환경설정 파일을 열면 아래와 같은 옵션을 찾을 수 있다. 옵션을 아래와 같이 변경하도록 하자.
 
@@ -71,7 +71,7 @@ enable-stale-production = false
 ...
 # producer-name = 
 ...
-# plugin = 
+# plugin =
 ```
 
 #### 변경 후

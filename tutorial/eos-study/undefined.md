@@ -4,7 +4,7 @@
 
 계정을 생성하는 방법에 대하여 학습한다.
 
-계정 생성하는 방법은 **2가지**가 있는데, `create account` 로 생성하는 방법과 `system newaccount` 로 생성하는  방법이 있다. 전자는 메인넷환경을 구성하기 전 사용하는 방식이며, 후자는 메인넷환경을 구성하고 실제 우리가 이오스 환경에서 계정을 사용할때 쓰는 방식이다. 후자는 추후 설명을 할테니 지금은 전자에 대해서 학습하자.
+계정 생성하는 방법은 **2가지**가 있는데, `create account` 로 생성하는 방법과 `system newaccount` 로 생성하는 방법이 있다. 전자는 메인넷환경을 구성하기 전 사용하는 방식이며, 후자는 메인넷환경을 구성하고 실제 우리가 이오스 환경에서 계정을 사용할때 쓰는 방식이다. 후자는 추후 설명을 할테니 지금은 전자에 대해서 학습하자.
 
 ## 계정 생성하기
 
@@ -19,7 +19,7 @@ cd ~/eos/build/programs/cleos
 > Error 3120003: Locked wallet
 > Ensure that your wallet is unlocked before using it!
 > ```
-
+>
 > ```text
 > Error 3090003: Provided keys, permissions, and delays do not satisfy declared authorizations
 > Ensure that you have the related private keys inside your wallet and your wallet is unlocked.
@@ -37,7 +37,7 @@ cd ~/eos/build/programs/cleos
 
 `./cleos create account` : 여기까지는 단순히 계정을 생성한다는 명령어다.
 
-`eosio` : 여기서 첫번째 인자로 사용된 eosio는 바로 모계정을 의미한다. 이오스에서는 계정을 생성하기 위해서는 반드시 계정을 생성시켜주는 모 계정이 필요하며 eosio는 처음 이오스 블록체인을 구동시킬때 단 하나만 생성되어 있는 마스터 계정이다. 
+`eosio` : 여기서 첫번째 인자로 사용된 eosio는 바로 모계정을 의미한다. 이오스에서는 계정을 생성하기 위해서는 반드시 계정을 생성시켜주는 모 계정이 필요하며 eosio는 처음 이오스 블록체인을 구동시킬때 단 하나만 생성되어 있는 마스터 계정이다.
 
 `test` : 실제 생성하고자 하는 계정의 이름이다.
 
@@ -51,7 +51,7 @@ cd ~/eos/build/programs/cleos
 
 ### 2. EOSIO Active key import 하기
 
-그렇다면 [`eosio`](../../keywords/e/eosio.md) 계정의 [`Active key`](../../keywords/a/active-key.md)는 어디에 있을까?  [`genesis.json`](../../keywords/g/genesis.json.md) 을 직접 만들었다면, 마스터 계정의 키를 직접 지정할수 있지만  우리는 아직 학습하는 단계이기 때문에 자동생성 되어진 그대로 사용할 것이다. 추후에는 직접 [`genesis.json`](../../keywords/g/genesis.json.md) 을 생성하여 구동하는 방법을 소개할 것이다. 지금은 신경쓰지 않아도 된다.
+그렇다면 [`eosio`](../../keywords/e/eosio.md) 계정의 [`Active key`](../../keywords/a/active-key.md)는 어디에 있을까? [`genesis.json`](../../keywords/g/genesis.json.md) 을 직접 만들었다면, 마스터 계정의 키를 직접 지정할수 있지만 우리는 아직 학습하는 단계이기 때문에 자동생성 되어진 그대로 사용할 것이다. 추후에는 직접 [`genesis.json`](../../keywords/g/genesis.json.md) 을 생성하여 구동하는 방법을 소개할 것이다. 지금은 신경쓰지 않아도 된다.
 
 #### eosio 계정의 key 찾기
 
@@ -61,7 +61,7 @@ cd ~/eos/build/programs/cleos
 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
 ```
 
-[`eosio`](../../keywords/e/eosio.md)의 key를 지갑에 import 하자. 
+[`eosio`](../../keywords/e/eosio.md)의 key를 지갑에 import 하자.
 
 ```text
 ./cleos wallet import
@@ -82,7 +82,7 @@ cd ~/eos/build/programs/cleos
 > ```text
 > executed transaction: c0d38a5cef42db63ec1af903d38fdac256ecf051287d3ecd016a325c8650e9a0  200 bytes  12062 us
 > #         eosio <= eosio::newaccount            {"creator":"eosio","name":"test","owner":{"threshold":1,"keys":[{"key":"EOS8N1AWn6pXrKG4cyCCWYvZQU8Z...
-> warning: transaction executed locally, but may not be confirmed by the network yet         ] 
+> warning: transaction executed locally, but may not be confirmed by the network yet         ]
 > ```
 
 그럼 위와 같이 정상적으로 계정을 생성한것을 볼 수 있다.
