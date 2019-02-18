@@ -1,6 +1,6 @@
----
-description: 간편하게 명령어를 입력할 수 있는 CLI
----
-
 # cleos
+
+## 개요
+
+[`nodeos`](../n/nodeos.md) 에 명령을 내리는 도구이다.
 
