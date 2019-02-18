@@ -40,6 +40,7 @@
 * [자주 발생하는 오류](posting/common-errors/README.md)
   * [Error 3040011: The transaction can not be found](posting/common-errors/error-3040011-the-transaction-can-not-be-found.md)
   * [Error 3080006: Transaction took too long](posting/common-errors/error-3080006-transaction-took-too-long.md)
+  * [Error 3090003: Provided keys, permissions, and delays do not satisfy declared authorizations](posting/common-errors/error-3090003-provided-keys-permissions-and-delays-do-not-satisfy-declared-authorizations.md)
 
 ## keywords
 
@@ -87,8 +88,8 @@
 * [R](keywords/r/README.md)
   * [RAM](keywords/r/ram.md)
 * [S](keywords/s/README.md)
-  * [smart contract \( 스마트 컨트랙트 \)](keywords/s/smart-contract.md)
-  * [system contract \( 시스템 컨트랙트 \)](keywords/s/system-contract.md)
+  * [smart contract](keywords/s/smart-contract.md)
+  * [system contract](keywords/s/system-contract.md)
 * [T](keywords/t.md)
 * [U](keywords/u.md)
 * [V](keywords/v.md)

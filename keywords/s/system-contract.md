@@ -1,4 +1,4 @@
-# system contract \( 시스템 컨트랙트 \)
+# system contract
 
 ## 개요
 
