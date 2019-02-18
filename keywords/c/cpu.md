@@ -10,7 +10,7 @@
 
 ## CPU stake/unstake의 개념
 
-![account : eos \( site : eoscanner.io \)](https://github.com/bon-k/eosdev-wiki/tree/792c592946e9831dff65a18ded8dc5cb5733bd8a/.gitbook/assets/eos_scanner.png)
+![CPU \( site : eoscanner.io \)](../../.gitbook/assets/cpu_resource.png)
 
 [CPU](cpu.md)를 할당받기 위해서는 stake \( 스테이크 \) 라는 행위를 해야 한다. 여기서 stake의 뜻은 "지분" 이라는 의미로 사용된다. 구매라는 표현을 쓰지않고 지분이라고 표현한 이유는, 21개의 [BP](../b/bp.md)의 컴퓨터 성능에 따라서 총 CPU 성능이 계산되고 그 비율을 EOS 토큰 비율로 지분을 할당받기 때문이다.
 
@@ -36,7 +36,7 @@ staking을 하게 되면 내가 가지고 있는 EOS 토큰 만큼 [CPU](cpu.md)
 
 ## CPU를 측정하는 단위
 
-![CPU \( site : eoscanner.io \)](https://github.com/bon-k/eosdev-wiki/tree/792c592946e9831dff65a18ded8dc5cb5733bd8a/.gitbook/assets/cpu_scanner.png)
+![CPU \( site : eoscanner.io \)](../../.gitbook/assets/cpu_resource.png)
 
 CPU의 단위를 보게되면 ms \( 밀리세컨드 \) / sec \(초\) 으로 미루어 보아 시간 단위라는것을 알수 있다.
 
