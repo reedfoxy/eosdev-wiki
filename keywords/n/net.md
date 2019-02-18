@@ -6,7 +6,7 @@
 
 ## NET stake/unstake의 개념
 
-![account : eos \( site : eoscanner.io \)](https://github.com/bon-k/eosdev-wiki/tree/792c592946e9831dff65a18ded8dc5cb5733bd8a/.gitbook/assets/eos_scanner.png)
+![net \( site : eoscanner.io \)](../../.gitbook/assets/net_resource.png)
 
 [NET](net.md)를 할당받기 위해서는 stake 라는 행위를 해야 한다. 여기서 stake의 뜻은 "지분" 이라는 의미로 사용된다. 구매라는 표현을 쓰지않고 지분이라고 표현한 이유는, 21개의 [BP](https://eosdev.wiki/keywords/b/bp)의 컴퓨터 성능에 따라서 총 [NET](net.md) 성능이 계산되고 EOS 토큰 비율만큼 지분을 할당받기 때문이다.
 
@@ -32,7 +32,7 @@ staking을 하게 되면 내가 가지고 있는 EOS 토큰 만큼 [NET](net.md)
 
 ## NET를 측정하는 단위
 
-![net \( site : eoscanner.io \)](https://github.com/bon-k/eosdev-wiki/tree/792c592946e9831dff65a18ded8dc5cb5733bd8a/.gitbook/assets/net_scanner.png)
+![net \( site : eoscanner.io \)](../../.gitbook/assets/net_resource.png)
 
 [NET](net.md)의 단위를 보게되면 byte / MB 으로 미루어 보아 데이터 용량 단위라는것을 알수 있다.
 

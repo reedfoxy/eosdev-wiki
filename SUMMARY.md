@@ -35,6 +35,7 @@
 ## POSTING
 
 * [정보](posting/infomation.md)
+* [블록체인 용어사전](posting/blockchain-dictionary.md)
 * [스마트컨트랙트 분석](posting/smart_contracts.md)
 * [자주 발생하는 오류](posting/common-errors/README.md)
   * [Error 3040011: The transaction can not be found](posting/common-errors/error-3040011-the-transaction-can-not-be-found.md)
