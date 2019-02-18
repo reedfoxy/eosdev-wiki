@@ -1,4 +1,2 @@
 # K
 
-[keosd](keosd.md)
-

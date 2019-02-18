@@ -29,6 +29,6 @@
 2. [노드를 안전하게 종료하기](node-safe.md)
 3. [지갑 만들기](wallet-create.md)
 4. [지갑 잠금해제 설정하기](wallet-unlock.md)
-5. [계정 생성하기](undefined.md)
-6. [토큰 발행하기](undefined-1.md)
+5. [계정 생성하기](account.md)
+6. [토큰 발행하기](token.md)
 7. 

@@ -1,4 +1,2 @@
 # C
 
-[cleos](cleos.md)
-
