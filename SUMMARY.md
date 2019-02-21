@@ -2,6 +2,10 @@
 
 * [Welcome](README.md)
 * [집필에 참여하기](writing.md)
+* [서포터즈](supporters/README.md)
+  * [reedfoxy 와퍼](supporters/reedfoxy.md)
+  * [DevTooth 정설민](supporters/devtooth.md)
+  * [Renov](supporters/renov.md)
 
 ## DOCUMENT
 
