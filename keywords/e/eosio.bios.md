@@ -2,9 +2,9 @@
 
 ## 개요
 
-특수한 기능을 수행하는 [system contract](../s/system-contract.md)
+특수한 기능을 수행하는 [system contract](../s/system-contract.md) 이다.
 
-[nodeos](../n/nodeos.md) 를 최초로 구동한뒤 [eosio](eosio.md) 계정으로 배포하는 [system contract](../s/system-contract.md) 이다. **자원 할당** 및 **BP를 지정**할 수 있는 기능을 가지고 있는 계약이다. 당연한 이야기지만, 일반 계정으로 배포할 경우 아무런 기능을 수행할 수 없다. 특수한 권한을 가진 [eosio](eosio.md) 계정으로 이 컨트랙트를 등록해야만 효과를 발휘할 수 있다. 참고 [eosio.system](eosio.system.md) 계약이 개발되기 이전에 **임시**로 사용했던 계약이므로 **현재는 쓰지 않는다**.
+[nodeos](../n/nodeos.md) 를 최초로 구동한뒤 [eosio](eosio.md) 계정으로 배포하는 [system contract](../s/system-contract.md) 이다. 직접 수동으로 배포하지 않아도 디폴트로 eosio 계정으로 배포 되어 있다. **자원 할당** 및 **BP를 지정**할 수 있는 기능을 가지고 있는 계약이다. 당연한 이야기지만, 일반 계정으로 배포할 경우 아무런 기능을 수행할 수 없다. 특수한 권한을 가진 [eosio](eosio.md) 계정으로 이 컨트랙트를 등록해야만 효과를 발휘할 수 있다. [eosio.system](eosio.system.md) 을 배포 하기 전 임시로 사용하는 계약이다.  초기에 몇몇 특수한 권한을 가진 계정을 생성 하기 위하여 사용하며 [eosio.system](eosio.system.md) 을 배포한 이후 부터는 **쓰지 않는다**.
 
 ## 파일 위치
 
@@ -132,7 +132,7 @@ cleos push action eosio setparams '{"params":{"max_block_net_usage":"1048576","t
 
 액션을 발생시킨 계정이 본인이 맞는지 스스 검증하는 액션이다.
 
-action name은 require\_auth 을 줄여서 requath 라고 한다. 별 특별한 기능 없는 액션이다. 본인이 발생시킨 액션이 맞는지 스스로 검증하는 코드 한줄밖에 없다.
+action name은 require\_auth 을 줄여서 requath 라고 한다. 본인이 발생시킨 액션이 맞는지 검증하는 역할을 한다.
 
 #### 사용방법
 
