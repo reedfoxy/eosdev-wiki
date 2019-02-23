@@ -34,7 +34,7 @@
   * [메인넷 환경 구성 준비하기](tutorial/eos-study/mainnet/README.md)
     * [이오스 구조 파악하기](tutorial/eos-study/mainnet/eos-struct.md)
     * [수수료 체계 이해하기](tutorial/eos-study/mainnet/commission.md)
-    * [BP와 투표 시스템 이해하기](tutorial/eos-study/mainnet/bp-vote.md)
+    * [BP와 수수료 정책 이해하기](tutorial/eos-study/mainnet/bp-vote.md)
 
 ## POSTING
 
@@ -71,6 +71,8 @@
   * [eosio.sudo](keywords/e/eosio.sudo.md)
   * [eosio.system](keywords/e/eosio.system.md)
   * [eosio.token](keywords/e/eosio.token.md)
+  * [eosio.ram](keywords/e/eosio.ram.md)
+  * [eosio.ramfee](keywords/e/eosio.ramfee.md)
 * [F](keywords/f.md)
 * [G](keywords/g/README.md)
   * [genesis.json](keywords/g/genesis.json.md)
