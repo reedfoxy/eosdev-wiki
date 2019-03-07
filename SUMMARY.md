@@ -91,6 +91,7 @@
 * [O](keywords/o/README.md)
   * [Owner key](keywords/o/owner-key.md)
 * [P](keywords/p/README.md)
+  * [Premium Account](keywords/p/premium-account.md)
   * [producer\_key](keywords/p/producer_key.md)
 * [Q](keywords/q.md)
 * [R](keywords/r/README.md)
