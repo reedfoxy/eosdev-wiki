@@ -21,12 +21,63 @@ EOS는 약 9개의 서브 모듈을 가지고 있고, 서브 모듈 안에 또 �
 
 eos 구동에 필요한 각종 프로그램이 함께 설치된다.
 
+### 1.6.0 이전 버전의 경우
+
 ```text
 cd eos
 ./eosio_build.sh
 ```
 
-최초 설치의 경우 컴퓨터 사양에 따라 다르지만 3시간 정도 소모된다. 빌드 과정이 끝났으면 아 install script를 추가로 실행한다.
+### 1.6.0 이후 버전의 경우
+
+```text
+cd eos
+./scripts/eosio_build.sh
+```
+
+> ```text
+>         Home Brew installation found @
+>         /usr/local/bin/brew
+>
+>         Checking dependencies.
+>         Checking automake ...            automake NOT found.
+>         Checking Libtool ...             Libtool NOT found.
+>         Checking OpenSSL ...             OpenSSL NOT found.
+>         Checking llvm ...                llvm NOT found.
+>         Checking wget ...                wget NOT found.
+>         Checking CMake ...               CMake NOT found.
+>         Checking GMP ...                 GMP NOT found.
+>         Checking gettext ...             gettext NOT found.
+>         Checking MongoDB ...             MongoDB NOT found.
+>         Checking Doxygen ...             Doxygen NOT found.
+>         Checking Graphviz ...            Graphviz NOT found.
+>         Checking LCOV ...                LCOV NOT found.
+>         Checking Python3 ...             python3 NOT found.
+>
+>         The following dependencies are required to install EOSIO.
+>
+>         1. automake
+>         2. Libtool
+>         3. OpenSSL
+>         4. llvm
+>         5. wget
+>         6. CMake
+>         7. GMP
+>         8. gettext
+>         9. MongoDB
+>         10. Doxygen
+>         11. Graphviz
+>         12. LCOV
+>         13. Python 3
+>
+>
+> Do you wish to install these packages?
+> 1: YES
+> 2: NO
+>
+> ```
+
+위 화면이 표시 될 경우 1을 누르고 Enter를 누르면 된다. 참고로 빌드가 완료되기 까지 시간은 컴퓨터 사양에 따라 다르지만 3시간 정도 소모된다. 빌드 과정이 끝났으면 아래 install script를 추가로 실행한다.
 
 ```text
 sudo ./eosio_install.sh
