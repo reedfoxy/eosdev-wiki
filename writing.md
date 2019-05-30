@@ -28,7 +28,7 @@ reedfoxy@gmail.com
 서포터즈가 아니더라도 EOS 위키 제작에 누구나 참여하실 수 있습니다. eosdev.wiki는 github와 실시간 미러링이 되므로 아래의 github 주소에 들어가 직접 페이지를 추가하거나 글을 편집해서 commit만 하면 됩니다. 관리자 혹은 서포터즈가 실시간으로 확인하여 여러분께서 열심히 작성한 코드를 merge 하여 줄 것입니다. merge가 되면 eosdev.wiki 사이트에 실시간으로 반영됩니다. 해당 페이지를 작성하거나 편집하게 될 경우 본인의 github 닉네임이 표시될 것입니다.
 
 ```text
-https://github.com/bon-k/eosdev-wiki
+https://github.com/reedfoxy/eosdev-wiki
 ```
 
 좀더 쉽게 페이지를 수정하는 방법은 페이지 상단 우측에 Edit on Github를 선택하시면 해당 페이지가 위치한 github 주소로 이동이 되므로 손쉽게 변경할 위치를 파악하실 수 있습니다.
