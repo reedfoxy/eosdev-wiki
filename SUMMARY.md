@@ -31,7 +31,7 @@
   * [지갑 잠금해제 설정하기](tutorial/eos-study/wallet-unlock.md)
   * [계정 생성하기](tutorial/eos-study/account.md)
   * [토큰 발행하기](tutorial/eos-study/token.md)
-  * [메인넷 환경 구성 준비하기](tutorial/eos-study/mainnet/README.md)
+  * [이오스 기초지식 학습하기](tutorial/eos-study/mainnet/README.md)
     * [이오스 구조 파악하기](tutorial/eos-study/mainnet/eos-struct.md)
     * [자원 요소 학습하기](tutorial/eos-study/mainnet/resources.md)
     * [BP와 수수료 정책 이해하기](tutorial/eos-study/mainnet/bp-commission.md)
