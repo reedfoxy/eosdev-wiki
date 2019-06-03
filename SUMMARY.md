@@ -47,6 +47,7 @@
   * [Error 3090003: Provided keys, permissions, and delays do not satisfy declared authorizations](posting/common-errors/error-3090003-provided-keys-permissions-and-delays-do-not-satisfy-declared-authorizations.md)
   * [Error 3120002: Nonexistent wallet](posting/common-errors/error-3120002-nonexistent-wallet.md)
   * [3060101 database\_guard\_exception: Database usage is at unsafe levels](posting/common-errors/3060101-database_guard_exception-database-usage-is-at-unsafe-levels.md)
+  * [bad alloc](posting/common-errors/bad-alloc.md)
 
 ## keywords
 
